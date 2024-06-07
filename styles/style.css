@@ -6,7 +6,7 @@
     font-family: "Lato", sans-serif;
 }
 
-header {
+header, #hot-deal {
     background-color: rgba(229, 84, 115, 0.1);
 
 }
@@ -127,4 +127,9 @@ button:hover {
     text-align: center;
     margin-top: 16px;
     text-decoration-line: underline;
+}
+/* hot deal */
+.hot-deal-main{
+    display: flex;
+    justify-content: space-around;
 }
